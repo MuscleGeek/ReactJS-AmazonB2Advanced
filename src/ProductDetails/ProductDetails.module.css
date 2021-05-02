@@ -1,0 +1,117 @@
+.ProductPreview {
+  width: 100%;
+  position: relative;
+}
+
+.ProductPreview > img {
+  width: 100%;
+}
+
+.TimeSection {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: limegreen;
+  font-size: 48px;
+  font-weight: 600;
+}
+.HeartBeatSection {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: greenyellow;
+  font-size: 48px;
+  font-weight: 600;
+
+}
+.HeartBeatSection > i {
+  color: red;
+  animation: beat 1.3s infinite;
+}
+.HeartBeatSection > p {
+  margin-top: 16px;
+}
+
+@keyframes beat {
+  0% {
+    transform: scale(1,1);
+  }
+  40% {
+    transform: scale(1.2, 1.2);
+  }
+  80% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+.ProductData {
+  width: 100%;
+}
+.ProductTitle {
+  font-family: "Comic Sans MS", Arial;
+  font-weight: 600;
+  font-size: 48px;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+.ProductDescription {
+  font-size: 20px;
+  color: magenta;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.SectionHeading {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+.ProductImage {
+  width: 100%;
+  max-width: 80px;
+  border: 2px solid aqua;
+  border-radius: 8px;
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+.SelectedProductImage {
+  border: 2px solid limegreen;
+}
+
+.FeatureItem {
+  background-color: gainsboro;
+  border-radius: 8px;
+  border: 0;
+  padding: 12px 24px;
+  margin : 0px 5px;
+  font-weight: 600;
+  box-sizing: content-box;
+}
+
+.FeatureData {
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  color: navajowhite;
+  font-size: 50px;
+  font-weight: 500;
+
+}
+.SelectedFeatureItem {
+  color: white;
+  background-color: goldenrod;
+}
+
+.PrimaryButton {
+  color: white;
+  background-color: teal;
+  border-radius: 8px;
+  border: 0;
+  padding: 12px 24px;
+  margin-top: 36px;
+}
