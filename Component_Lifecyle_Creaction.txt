@@ -1,0 +1,7 @@
+constructor{super(props)}    =======> Use props to set default state
+
+render()                     =======> Structure and Design JSX Code
+
+Render Child Components      =======> ---------------------
+
+componentDidMount()          =======> Make HTTP Request
